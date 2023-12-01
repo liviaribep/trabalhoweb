@@ -6,14 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> Pagina Inicial </h1>
-    <?php 
-    $nome = $_POST["nome"];
-    $senha = $_POST["senha"];
-    
-    if($nome == "Livia" and $senha == "admin")
-     header("Location: "."site.php");
-    ?>
+    <h1> Pagina inicial </h1>
+  
 </body>
 </html>
 

@@ -7,46 +7,68 @@
     <title>Exemplo2</title>
 
     <style>
-
-        form{
-            background-color: lightblue;
-            padding: 10px;
-            margin: 5px;
-            width: 30%;
-            height: 150px;
-            position: relative;
-            left: 460px;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
         }
 
-        label,input{
-            padding: 6px;
-            margin: 3px;
-            text-align: center;
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
             position: relative;
-            top: 30px;
-            left: 40px;
+            left: -80px;
+            
         }
 
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
 
-</style>
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        #Enviar {
+            background-color: #6FAFF2;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+        }
+        h2 {
+            color: #6FAFF2;
+            position: relative;
+            bottom: 200px;
+            left: 150px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+        }
+    </style>
 </head>
 <body>
-    <h2> exemplo </h2>
-    <?php
-        $x = 5;
-        $y = 4;
-        echo "x= ".$x;
-        echo "<br> y= ".$y;
-        echo "<br> x + y = ".$x + $y;
-    ?>    
-    <h2> formularios </h2>
-    <form action="index.php" method="post">
+    <h2> Login </h2>
+    
+    <form action="validar.php" method="post">
         <label for="nome"> Nome: </label>
         <input id="nome" type="text" name="nome"> <br>
         <label for="senha"> Senha: </label>
         <input id="senha" type="password" name="senha"> <br>
-        <input type="submit"> <br>
-        
+        <input type="submit" id="Enviar"> <br>
     </form>    
+
+    
+    
 </body>
 </html>
