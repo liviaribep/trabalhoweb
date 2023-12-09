@@ -12,7 +12,9 @@
 
     if($nome === "Admin" and $senha === "admin")
      header("Location: "."Siteprincipal.php");
-    else
+    else if($nome === "Caio" and $senha === "caio")
+    header("Location: "."Sitesecundário.php");
+     else
     header("Location "."paginainicial.php");
     ?>
 </body>

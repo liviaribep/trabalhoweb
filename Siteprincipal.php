@@ -11,16 +11,12 @@
     padding: 0;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
 header {
-    background-color: #333;
-    color: #fff;
-    position: relative;
-    left: 400px;
+    background-color:  rgb(200, 200, 200);
+    color: rgb(200, 200, 200);
+    position: absolute;
+    left: 0px; top: 0px;
+    width: 100%;
 }
 
 header h1 {
@@ -28,22 +24,19 @@ header h1 {
     display: inline;
 }
 
-nav {
-    display: inline;
-}
 
-nav ul {
+ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul li {
+ul li {
     display: inline;
     margin-right: 20px;
 }
 
-nav ul li a {
+ul li a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
@@ -54,7 +47,6 @@ nav ul li a {
 <body>
 
     <header>
-        <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="loja.html">Loja</a></li>
@@ -62,11 +54,13 @@ nav ul li a {
                 <li><a href="admins.html">Administradores</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
             </ul>
-        </nav>
     </header>
 
     <main>
         <h1>Bem-vindo à Página Inicial!</h1>
+
+
+       
         
     </main>
 
