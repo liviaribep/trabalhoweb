@@ -6,9 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> Pagina inicial </h1>
-  
+    
 </body>
 </html>
-
-

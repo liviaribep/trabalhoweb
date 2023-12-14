@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
- <style>  
+    <title>Document</title>
+    <style>
     body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
+    }
 
-ul.menu {
+    ul.menu {
             list-style-type: none;
             padding: 0;
             margin: 0;
@@ -32,23 +32,26 @@ ul.menu {
         }
 
         ul.menu li a:hover {
-            background-color: #111;
+            background-color: #6FAFF2;
         }
 
         h1 {
             position: relative;
             top: 50px;
-            left: 23%;
+            left: 30%;
+            color: #6FAFF2;
         }
     </style>
 </head>
 <body>
-    <ul class="menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#news">Notícias</a></li>
-        <li><a href="#contact">Contato</a></li>
-        <li><a href="#about">Sobre</a></li>
+<ul class="menu">
+        <li><a href="Siteintermediario.php">Home</a></li>
+        <li><a href="Produtos.php">Produtos</a></li>
+        <li><a href="PedidosPerfil.php">Pedidos</a></li>
+        <li><a href="Contato.php">Contato</a></li>
+        <li><a href="Perfil.php">Perfil</a></li>
     </ul>
-    <h1> BEM VINDO A PAGINA DE ADMINISTRADORES </h1>
+    <h1> BEM VINDO A ELETROS </h1>
+    
 </body>
 </html>

@@ -11,11 +11,11 @@
     $senha = $_POST["senha"];
 
     if($nome === "Admin" and $senha === "admin")
-     header("Location: "."Siteprincipal.php");
+     header("Location: "."Siteadmin.php");
     else if($nome === "Caio" and $senha === "caio")
-    header("Location: "."Sitesecundário.php");
-     else
-    header("Location "."paginainicial.php");
+    header("Location: "."Siteintermediario.php");
+    else 
+    print("Nome/Senha inválidos");
     ?>
 </body>
 </html>

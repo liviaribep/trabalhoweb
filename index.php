@@ -55,6 +55,11 @@
             font-family: 'Times New Roman', Times, serif;
             font-size: 50px;
         }
+        a {
+            color: #6FAFF2;
+            position: relative;
+            left: 20%;
+        }
     </style>
 </head>
 <body>
@@ -66,6 +71,7 @@
         <label for="senha"> Senha: </label>
         <input id="senha" type="password" name="senha"> <br>
         <input type="submit" id="Enviar"> <br>
+        <a href="Sitecomum.php"> Continuar sem cadastro </a>
     </form>    
 
     
