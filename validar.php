@@ -12,7 +12,7 @@
 
     if($nome === "Admin" and $senha === "admin")
      header("Location: "."Siteadmin.php");
-    else if($nome === "Caio" and $senha === "caio")
+    else if($nome === "Inter" and $senha === "inter")
     header("Location: "."Siteintermediario.html");
     else 
     print("Nome/Senha inválidos");
