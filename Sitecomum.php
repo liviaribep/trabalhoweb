@@ -13,6 +13,7 @@
     <p id="logo2" style="font-size: 60px; color: #6FAFF2; display: block;"> ELETROS-STORE </p>
     <ul class="menu">
         <li><a href="Sitecomum.php">Home</a></li>
+        <li><a href="cadastro.php">Cadastro</a></li>
         <li><a href="Produtos.php">Produtos</a></li>
         <li><a href="Sobre.php"> Sobre </a></li>
     </ul>
